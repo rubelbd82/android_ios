@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item
+	        android:id="@+id/menu_refresh"
+	        android:showAsAction="ifRoom"
+	        android:title="@string/sp"
+	        android:titleCondensed="@string/sp"
+	        android:enabled="false"
+	        >
+	    </item>
+
+</menu>

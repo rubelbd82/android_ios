@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SEBangladesh</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sp"></string>
+    <string name="title_section1">DSE</string>
+    <string name="title_section2">CSE</string>
+    <string name="title_section3">Section 3</string>
+    <string name="price">Price</string>
+    <string name="indexes">Indexes</string>
+    <string name="dse_30">DSE 30</string>
+    <string name="record_date">Record Date</string>
+    <string name="news">News</string>
+    <string name="edit">Edit</string>
+    <string name="title_activity_dse_list">Dse Price List</string>
+    <string name="title_activity_cse_list">Cse Price List</string>
+    <string name="company_name">Company Name</string>
+    <string name="change">"Change: "</string>
+    <string name="high">High:</string>
+    <string name="low">"Low: "</string>
+    <string name="refresh">Refresh</string>
+    <string name="search">Search</string>
+    <string name="my_favorite">My Favorite</string>
+    <string name="title_activity_company_details">Company Details</string>
+    <string name="ltp">Last Trade: </string>
+    <string name="percent_change">Percent Change: </string>
+    <string name="day_range">Day\'s Range: </string>
+    <string name="year_range">52 week\'s range: </string>
+    <string name="face_value">Face Value: </string>
+    <string name="market_lot">Market Lot: </string>
+    <string name="market_capital">Market Capital: </string>
+    <string name="market_category">Market Category: </string>
+    <string name="authorized_capital">Authorized Capital: </string>
+    <string name="paidup_capital">Paid-up Capital: </string>
+    <string name="reserve">Reserve / Surplus: </string>
+    <string name="eps">EPS: </string>
+    <string name="pe_ratio">P/E Ratio: </string>
+    <string name="last_update">Last Update: </string>
+    <string name="volume_traded">Volume Traded: </string>
+    <string name="title_activity_record_date_dse">DSE Record Date</string>
+    <string name="dividend">"Dividend: "</string>
+    <string name="agm_date">"AGM/EGM Date: "</string>
+    <string name="record_date_label">"Record Date: "</string>
+    <string name="title_activity_record_date_cse">CSE Record Date</string>
+    <string name="title_activity_news_list_dse">Dse News</string>
+    <string name="title_activity_news_list_cse">CSE News</string>
+    <string name="title_activity_dse_favorite">Dse Favorite</string>
+    <string name="title_activity_cse_favorite">Cse Favorite</string>
+    <string name="title_activity_dse_indexes">Dse Indexes</string>
+    <string name="dsex_index">DSEX Index</string>
+    <string name="dgen_index">DGEN Index</string>
+    <string name="view_large">View Large</string>
+    <string name="ds30_index">DS30 Index</string>
+    <string name="title_activity_cse_indexes">Cse Indexes</string>
+    <string name="cse30_index">CSE30 Index</string>
+    <string name="cscx_index">CSCX</string>
+    <string name="caspi_index">CASPI</string>
+
+</resources>

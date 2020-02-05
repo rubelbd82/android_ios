@@ -1,0 +1,1176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+     <CheckBoxPreference
+        android:key="AAMRATECH"
+        android:summary="aamra technologies limited"
+        android:title="AAMRATECH" />
+<CheckBoxPreference
+        android:key="ABB1STMF"
+        android:summary="AB Bank 1st Mutual fund"
+        android:title="ABB1STMF" />
+<CheckBoxPreference
+        android:key="ABBANK"
+        android:summary="AB Bank Limited"
+        android:title="ABBANK" />
+<CheckBoxPreference
+        android:key="ACI"
+        android:summary="ACI  Limited."
+        android:title="ACI" />
+<CheckBoxPreference
+        android:key="ACIFORMULA"
+        android:summary="ACI Formulations Limited"
+        android:title="ACIFORMULA" />
+<CheckBoxPreference
+        android:key="ACIZCBOND"
+        android:summary="ACI 20% Convertible Zero Coupon Bonds"
+        android:title="ACIZCBOND" />
+<CheckBoxPreference
+        android:key="ACTIVEFINE"
+        android:summary="Active Fine Chemicals Limited"
+        android:title="ACTIVEFINE" />
+<CheckBoxPreference
+        android:key="AFTABAUTO"
+        android:summary="Aftab Automobiles"
+        android:title="AFTABAUTO" />
+<CheckBoxPreference
+        android:key="AGNISYSL"
+        android:summary="Agni Systems Ltd."
+        android:title="AGNISYSL" />
+<CheckBoxPreference
+        android:key="AGRANINS"
+        android:summary="Agrani Insurance Co. Ltd."
+        android:title="AGRANINS" />
+<CheckBoxPreference
+        android:key="AIBL1STIMF"
+        android:summary="AIBL 1st Islamic Mutual Fund"
+        android:title="AIBL1STIMF" />
+<CheckBoxPreference
+        android:key="AIMS1STMF"
+        android:summary="Aims 1st M.F."
+        android:title="AIMS1STMF" />
+<CheckBoxPreference
+        android:key="AL-HAJTEX"
+        android:summary="Al-Haj Textile"
+        android:title="AL-HAJTEX" />
+<CheckBoxPreference
+        android:key="ALARABANK"
+        android:summary="Al-Arafah Islami Bank"
+        android:title="ALARABANK" />
+<CheckBoxPreference
+        android:key="ALLTEX"
+        android:summary="Alltex Industries Ltd."
+        android:title="ALLTEX" />
+<CheckBoxPreference
+        android:key="AMBEEPHA"
+        android:summary="Ambee Pharma"
+        android:title="AMBEEPHA" />
+<CheckBoxPreference
+        android:key="AMCL(PRAN)"
+        android:summary="AMCL (Pran)"
+        android:title="AMCL(PRAN)" />
+<CheckBoxPreference
+        android:key="ANLIMAYARN"
+        android:summary="Anlimayarn Deying Ltd."
+        android:title="ANLIMAYARN" />
+<CheckBoxPreference
+        android:key="ANWARGALV"
+        android:summary="Anwar Galvanizing"
+        android:title="ANWARGALV" />
+<CheckBoxPreference
+        android:key="APEXADELFT"
+        android:summary="Apex Adelchi Footwear Ltd."
+        android:title="APEXADELFT" />
+<CheckBoxPreference
+        android:key="APEXFOODS"
+        android:summary="Apex Foods"
+        android:title="APEXFOODS" />
+<CheckBoxPreference
+        android:key="APEXSPINN"
+        android:summary="Apex Spinning And Knitting Mills Limited"
+        android:title="APEXSPINN" />
+<CheckBoxPreference
+        android:key="APEXTANRY"
+        android:summary="Apex Tannery"
+        android:title="APEXTANRY" />
+<CheckBoxPreference
+        android:key="ARAMIT"
+        android:summary="Aramit"
+        android:title="ARAMIT" />
+<CheckBoxPreference
+        android:key="ARAMITCEM"
+        android:summary="Aramit Cement"
+        android:title="ARAMITCEM" />
+<CheckBoxPreference
+        android:key="ASIAINS"
+        android:summary="Asia Insurance Limited"
+        android:title="ASIAINS" />
+<CheckBoxPreference
+        android:key="ASIAPACINS"
+        android:summary="Asia Pacific General Insurance Co. Ltd."
+        android:title="ASIAPACINS" />
+<CheckBoxPreference
+        android:key="ATLASBANG"
+        android:summary="Atlas Bangladesh"
+        android:title="ATLASBANG" />
+<CheckBoxPreference
+        android:key="AZIZPIPES"
+        android:summary="Aziz Pipes"
+        android:title="AZIZPIPES" />
+<CheckBoxPreference
+        android:key="BANGAS"
+        android:summary="Bangas"
+        android:title="BANGAS" />
+<CheckBoxPreference
+        android:key="BANKASIA"
+        android:summary="Bank Asia Ltd."
+        android:title="BANKASIA" />
+<CheckBoxPreference
+        android:key="BATASHOE"
+        android:summary="Bata Shoe"
+        android:title="BATASHOE" />
+<CheckBoxPreference
+        android:key="BATBC"
+        android:summary="BATBC"
+        android:title="BATBC" />
+<CheckBoxPreference
+        android:key="BAYLEASING"
+        android:summary="Bay Leasing And Investment Limited"
+        android:title="BAYLEASING" />
+<CheckBoxPreference
+        android:key="BDAUTOCA"
+        android:summary="BD.Autocars"
+        android:title="BDAUTOCA" />
+<CheckBoxPreference
+        android:key="BDCOM"
+        android:summary="BDCOM Online Ltd."
+        android:title="BDCOM" />
+<CheckBoxPreference
+        android:key="BDFINANCE"
+        android:summary="Bangladesh Finance and Investment Co.Ltd"
+        android:title="BDFINANCE" />
+<CheckBoxPreference
+        android:key="BDLAMPS"
+        android:summary="Bangladesh Lamps"
+        android:title="BDLAMPS" />
+<CheckBoxPreference
+        android:key="BDSERVICE"
+        android:summary="Bangladesh Services Ltd."
+        android:title="BDSERVICE" />
+<CheckBoxPreference
+        android:key="BDTHAI"
+        android:summary="Bd.Thai Aluminium"
+        android:title="BDTHAI" />
+<CheckBoxPreference
+        android:key="BDWELDING"
+        android:summary="Bd. Welding Electrodes"
+        android:title="BDWELDING" />
+<CheckBoxPreference
+        android:key="BEACHHATCH"
+        android:summary="Beach Hatchery Ltd."
+        android:title="BEACHHATCH" />
+<CheckBoxPreference
+        android:key="BEACONPHAR"
+        android:summary="Beacon Pharmaceuticals Limited"
+        android:title="BEACONPHAR" />
+<CheckBoxPreference
+        android:key="BEDL"
+        android:summary="Barakatullah Electro Dynamics Ltd."
+        android:title="BEDL" />
+<CheckBoxPreference
+        android:key="BERGERPBL"
+        android:summary="Berger Paints Bangladesh Ltd."
+        android:title="BERGERPBL" />
+<CheckBoxPreference
+        android:key="BEXIMCO"
+        android:summary="BEXIMCO"
+        android:title="BEXIMCO" />
+<CheckBoxPreference
+        android:key="BGIC"
+        android:summary="BGIC"
+        android:title="BGIC" />
+<CheckBoxPreference
+        android:key="BIFC"
+        android:summary="Bangladesh Industrial Fin. Co. Ltd."
+        android:title="BIFC" />
+<CheckBoxPreference
+        android:key="BRACBANK"
+        android:summary="BRAC Bank Ltd."
+        android:title="BRACBANK" />
+<CheckBoxPreference
+        android:key="BRACSCBOND"
+        android:summary="Sub 25% Convertible Bonds of BRAC Bank L"
+        android:title="BRACSCBOND" />
+<CheckBoxPreference
+        android:key="BSC"
+        android:summary="BSC"
+        android:title="BSC" />
+<CheckBoxPreference
+        android:key="BSCCL"
+        android:summary="Bangladesh Submarine Cable Company Limited"
+        android:title="BSCCL" />
+<CheckBoxPreference
+        android:key="BSRMSTEEL"
+        android:summary="BSRM Steels Limited"
+        android:title="BSRMSTEEL" />
+<CheckBoxPreference
+        android:key="BXPHARMA"
+        android:summary="Beximco Pharma"
+        android:title="BXPHARMA" />
+<CheckBoxPreference
+        android:key="BXSYNTH"
+        android:summary="Beximco Synthetics"
+        android:title="BXSYNTH" />
+<CheckBoxPreference
+        android:key="CENTRALINS"
+        android:summary="Central Insurance"
+        android:title="CENTRALINS" />
+<CheckBoxPreference
+        android:key="CITYBANK"
+        android:summary="City Bank"
+        android:title="CITYBANK" />
+<CheckBoxPreference
+        android:key="CITYGENINS"
+        android:summary="City General Insurance Co. Ltd."
+        android:title="CITYGENINS" />
+<CheckBoxPreference
+        android:key="CMCKAMAL"
+        android:summary="CMC Kamal"
+        android:title="CMCKAMAL" />
+<CheckBoxPreference
+        android:key="CONFIDCEM"
+        android:summary="Confidence Cement"
+        android:title="CONFIDCEM" />
+<CheckBoxPreference
+        android:key="CONTININS"
+        android:summary="Continental Insurance Ltd."
+        android:title="CONTININS" />
+<CheckBoxPreference
+        android:key="CVOPRL"
+        android:summary="CVO Petrochemical Refinery Limited"
+        android:title="CVOPRL" />
+<CheckBoxPreference
+        android:key="DACCADYE"
+        android:summary="The Dacca Dyeing And Manufacturing Co.Ltd."
+        android:title="DACCADYE" />
+<CheckBoxPreference
+        android:key="DAFODILCOM"
+        android:summary="Daffodil Computers Ltd."
+        android:title="DAFODILCOM" />
+<CheckBoxPreference
+        android:key="DBH"
+        android:summary="Delta Brac Housing Finance Corp. Ltd."
+        android:title="DBH" />
+<CheckBoxPreference
+        android:key="DBH1STMF"
+        android:summary="DBH First Mutual Fund"
+        android:title="DBH1STMF" />
+<CheckBoxPreference
+        android:key="DEBARACEM"
+        android:summary="Aramit Cement Ltd.(Deb-14%)"
+        android:title="DEBARACEM" />
+<CheckBoxPreference
+        android:key="DEBBDLUGG"
+        android:summary="Bangladesh Luggage Ind. Ltd.(Deb-14%)"
+        android:title="DEBBDLUGG" />
+<CheckBoxPreference
+        android:key="DEBBDWELD"
+        android:summary="BD Welding Electrodes Ltd.(Deb-15%)"
+        android:title="DEBBDWELD" />
+<CheckBoxPreference
+        android:key="DEBBDZIPP"
+        android:summary="Bangladesh Zipper Ind. Ltd.(Deb-14%)"
+        android:title="DEBBDZIPP" />
+<CheckBoxPreference
+        android:key="DEBBXDENIM"
+        android:summary="Beximco Denims Ltd.(Deb-14%)"
+        android:title="DEBBXDENIM" />
+<CheckBoxPreference
+        android:key="DEBBXFISH"
+        android:summary="Beximco Fisheries Ltd.(Deb-14%)"
+        android:title="DEBBXFISH" />
+<CheckBoxPreference
+        android:key="DEBBXKNI"
+        android:summary="Beximco Knitting Ltd.(Deb-14%)"
+        android:title="DEBBXKNI" />
+<CheckBoxPreference
+        android:key="DEBBXTEX"
+        android:summary="Beximco Textiles Ltd.(Deb-14%)"
+        android:title="DEBBXTEX" />
+<CheckBoxPreference
+        android:key="DELTALIFE"
+        android:summary="Delta Life Insurance"
+        android:title="DELTALIFE" />
+<CheckBoxPreference
+        android:key="DELTASPINN"
+        android:summary="Delta Spinners Ltd."
+        android:title="DELTASPINN" />
+<CheckBoxPreference
+        android:key="DESCO"
+        android:summary="Dhaka Electric Supply Company Ltd."
+        android:title="DESCO" />
+<CheckBoxPreference
+        android:key="DESHBANDHU"
+        android:summary="Deshbandhu Polymer Limited"
+        android:title="DESHBANDHU" />
+<CheckBoxPreference
+        android:key="DHAKABANK"
+        android:summary="Dhaka Bank"
+        android:title="DHAKABANK" />
+<CheckBoxPreference
+        android:key="DHAKAINS"
+        android:summary="Dhaka Insurance Limited"
+        android:title="DHAKAINS" />
+<CheckBoxPreference
+        android:key="DSHGARME"
+        android:summary="Desh Garmants"
+        android:title="DSHGARME" />
+<CheckBoxPreference
+        android:key="DULAMIACOT"
+        android:summary="Dulamia Cotton"
+        android:title="DULAMIACOT" />
+<CheckBoxPreference
+        android:key="DUTCHBANGL"
+        android:summary="Dutch-Bangla Bank"
+        android:title="DUTCHBANGL" />
+<CheckBoxPreference
+        android:key="EASTERNINS"
+        android:summary="Eastern Insurance"
+        android:title="EASTERNINS" />
+<CheckBoxPreference
+        android:key="EASTLAND"
+        android:summary="Eastland Insurance"
+        android:title="EASTLAND" />
+<CheckBoxPreference
+        android:key="EASTRNLUB"
+        android:summary="Eastern Lubricants"
+        android:title="EASTRNLUB" />
+<CheckBoxPreference
+        android:key="EBL"
+        android:summary="Eastern Bank"
+        android:title="EBL" />
+<CheckBoxPreference
+        android:key="EBL1STMF"
+        android:summary="EBL First Mutual Fund"
+        android:title="EBL1STMF" />
+<CheckBoxPreference
+        android:key="EBLNRBMF"
+        android:summary="EBL NRB Mutual Fund"
+        android:title="EBLNRBMF" />
+<CheckBoxPreference
+        android:key="ECABLES"
+        android:summary="Eastern Cables"
+        android:title="ECABLES" />
+<CheckBoxPreference
+        android:key="EHL"
+        android:summary="Eastern Housing"
+        android:title="EHL" />
+<CheckBoxPreference
+        android:key="EXIMBANK"
+        android:summary="Export Import (Exim) Bank of Bangladesh"
+        android:title="EXIMBANK" />
+<CheckBoxPreference
+        android:key="FAREASTLIF"
+        android:summary="Fareast Islami Life Insurance Co. Ltd."
+        android:title="FAREASTLIF" />
+<CheckBoxPreference
+        android:key="FASFIN"
+        android:summary="FAS Finance And Investment Limited"
+        android:title="FASFIN" />
+<CheckBoxPreference
+        android:key="FBFIF"
+        android:summary="First Bangladesh Fixed Income Fund"
+        android:title="FBFIF" />
+<CheckBoxPreference
+        android:key="FEDERALINS"
+        android:summary="Federal Insurance"
+        android:title="FEDERALINS" />
+<CheckBoxPreference
+        android:key="FINEFOODS"
+        android:summary="Fine Foods Limited"
+        android:title="FINEFOODS" />
+<CheckBoxPreference
+        android:key="FIRSTSBANK"
+        android:summary="First Security Islami Bank Limited"
+        android:title="FIRSTSBANK" />
+<CheckBoxPreference
+        android:key="FLEASEINT"
+        android:summary="First Lease Finance and Investment Ltd."
+        android:title="FLEASEINT" />
+<CheckBoxPreference
+        android:key="FUWANGCER"
+        android:summary="Fu-Wang Ceramic"
+        android:title="FUWANGCER" />
+<CheckBoxPreference
+        android:key="FUWANGFOOD"
+        android:summary="Fu Wang Food"
+        android:title="FUWANGFOOD" />
+<CheckBoxPreference
+        android:key="GBBPOWER"
+        android:summary="GBB Power Ltd."
+        android:title="GBBPOWER" />
+<CheckBoxPreference
+        android:key="GEMINISEA"
+        android:summary="Gemini Sea Food"
+        android:title="GEMINISEA" />
+<CheckBoxPreference
+        android:key="GLAXOSMITH"
+        android:summary="Glaxo SmithKline"
+        android:title="GLAXOSMITH" />
+<CheckBoxPreference
+        android:key="GLOBALINS"
+        android:summary="Global Insurance Ltd."
+        android:title="GLOBALINS" />
+<CheckBoxPreference
+        android:key="GOLDENSON"
+        android:summary="Golden Son Ltd."
+        android:title="GOLDENSON" />
+<CheckBoxPreference
+        android:key="GP"
+        android:summary="Grameenphone Ltd."
+        android:title="GP" />
+<CheckBoxPreference
+        android:key="GPHISPAT"
+        android:summary="GPH Ispat Ltd."
+        android:title="GPHISPAT" />
+<CheckBoxPreference
+        android:key="GQBALLPEN"
+        android:summary="GQ Ball Pen"
+        android:title="GQBALLPEN" />
+<CheckBoxPreference
+        android:key="GRAMEEN1"
+        android:summary="Grameen Mutual Fund One"
+        android:title="GRAMEEN1" />
+<CheckBoxPreference
+        android:key="GRAMEENS2"
+        android:summary="Grameen One : Scheme Two"
+        android:title="GRAMEENS2" />
+<CheckBoxPreference
+        android:key="GREENDELMF"
+        android:summary="Green Delta Mutual Fund"
+        android:title="GREENDELMF" />
+<CheckBoxPreference
+        android:key="GREENDELT"
+        android:summary="Green Delta Insurance"
+        android:title="GREENDELT" />
+<CheckBoxPreference
+        android:key="GSPFINANCE"
+        android:summary="GSP Finance Company (Bangladesh) Limited"
+        android:title="GSPFINANCE" />
+<CheckBoxPreference
+        android:key="HAKKANIPUL"
+        android:summary="Hakkani Pulp And Paper"
+        android:title="HAKKANIPUL" />
+<CheckBoxPreference
+        android:key="HEIDELBCEM"
+        android:summary="Heidelberg Cement Bd."
+        android:title="HEIDELBCEM" />
+<CheckBoxPreference
+        android:key="HRTEX"
+        android:summary="H.R.Textile"
+        android:title="HRTEX" />
+<CheckBoxPreference
+        android:key="IBBLPBOND"
+        android:summary="IBBL Mudaraba Perpetual Bond"
+        android:title="IBBLPBOND" />
+<CheckBoxPreference
+        android:key="IBNSINA"
+        android:summary="The Ibn Sina"
+        android:title="IBNSINA" />
+<CheckBoxPreference
+        android:key="ICB"
+        android:summary="ICB"
+        android:title="ICB" />
+<CheckBoxPreference
+        android:key="ICB1STNRB"
+        android:summary="ICB AMCL 1st NRB Mutual Fund"
+        android:title="ICB1STNRB" />
+<CheckBoxPreference
+        android:key="ICB2NDNRB"
+        android:summary="ICB AMCL 2nd NRB Mutual Fund"
+        android:title="ICB2NDNRB" />
+<CheckBoxPreference
+        android:key="ICB3RDNRB"
+        android:summary="ICB AMCL Third NRB Mutual Fund"
+        android:title="ICB3RDNRB" />
+<CheckBoxPreference
+        android:key="ICBAMCL1ST"
+        android:summary="ICB AMCL 1st M.F."
+        android:title="ICBAMCL1ST" />
+<CheckBoxPreference
+        android:key="ICBAMCL2ND"
+        android:summary="ICB AMCL Second Mutual Fund"
+        android:title="ICBAMCL2ND" />
+<CheckBoxPreference
+        android:key="ICBEPMF1S1"
+        android:summary="ICB Employees Provident MF 1: Scheme 1"
+        android:title="ICBEPMF1S1" />
+<CheckBoxPreference
+        android:key="ICBIBANK"
+        android:summary="ICB Islamic Bank Limited"
+        android:title="ICBIBANK" />
+<CheckBoxPreference
+        android:key="ICBISLAMIC"
+        android:summary="ICB AMCL Islamic Mutual Fund"
+        android:title="ICBISLAMIC" />
+<CheckBoxPreference
+        android:key="IDLC"
+        android:summary="IDLC Finance Ltd."
+        android:title="IDLC" />
+<CheckBoxPreference
+        android:key="IFIC"
+        android:summary="IFIC Bank"
+        android:title="IFIC" />
+<CheckBoxPreference
+        android:key="IFIC1STMF"
+        android:summary="IFIC Bank 1st Mutual Fund"
+        android:title="IFIC1STMF" />
+<CheckBoxPreference
+        android:key="IFILISLMF1"
+        android:summary="IFIL Islamic Mutual Fund-1"
+        android:title="IFILISLMF1" />
+<CheckBoxPreference
+        android:key="ILFSL"
+        android:summary="International Leasing And Financial Serv.L"
+        android:title="ILFSL" />
+<CheckBoxPreference
+        android:key="IMAMBUTTON"
+        android:summary="Imam Button"
+        android:title="IMAMBUTTON" />
+<CheckBoxPreference
+        android:key="INTECH"
+        android:summary="Intech Online Ltd."
+        android:title="INTECH" />
+<CheckBoxPreference
+        android:key="IPDC"
+        android:summary="Industrial Prom. And Dev. Co. of BD Ltd."
+        android:title="IPDC" />
+<CheckBoxPreference
+        android:key="ISLAMIBANK"
+        android:summary="Islami Bank"
+        android:title="ISLAMIBANK" />
+<CheckBoxPreference
+        android:key="ISLAMICFIN"
+        android:summary="Islamic Finance And Investment Ltd."
+        android:title="ISLAMICFIN" />
+<CheckBoxPreference
+        android:key="ISLAMIINS"
+        android:summary="Islami Insurance Bangladesh Limited"
+        android:title="ISLAMIINS" />
+<CheckBoxPreference
+        android:key="ISNLTD"
+        android:summary="Information Services Network"
+        android:title="ISNLTD" />
+<CheckBoxPreference
+        android:key="JAMUNABANK"
+        android:summary="Jamuna Bank Ltd."
+        android:title="JAMUNABANK" />
+<CheckBoxPreference
+        android:key="JAMUNAOIL"
+        android:summary="Jamuna Oil Company Limited"
+        android:title="JAMUNAOIL" />
+<CheckBoxPreference
+        android:key="JANATAINS"
+        android:summary="Janata Insurance"
+        android:title="JANATAINS" />
+<CheckBoxPreference
+        android:key="JUTESPINN"
+        android:summary="Jute Spinners"
+        android:title="JUTESPINN" />
+<CheckBoxPreference
+        android:key="KARNAPHULI"
+        android:summary="Karnaphuli Insurance"
+        android:title="KARNAPHULI" />
+<CheckBoxPreference
+        android:key="KAYNQUE"
+        android:summary="Kay and Que"
+        android:title="KAYNQUE" />
+<CheckBoxPreference
+        android:key="KEYACOSMET"
+        android:summary="Keya Cosmetics"
+        android:title="KEYACOSMET" />
+<CheckBoxPreference
+        android:key="KOHINOOR"
+        android:summary="Kohinoor Chemicals"
+        android:title="KOHINOOR" />
+<CheckBoxPreference
+        android:key="KPCL"
+        android:summary="Khulna Power Company Limited"
+        android:title="KPCL" />
+<CheckBoxPreference
+        android:key="LAFSURCEML"
+        android:summary="LAFARGE SURMA CEMENT LTD."
+        android:title="LAFSURCEML" />
+<CheckBoxPreference
+        android:key="LANKABAFIN"
+        android:summary="LankaBangla Finance ltd."
+        android:title="LANKABAFIN" />
+<CheckBoxPreference
+        android:key="LEGACYFOOT"
+        android:summary="Legacy Footwear"
+        android:title="LEGACYFOOT" />
+<CheckBoxPreference
+        android:key="LIBRAINFU"
+        android:summary="Libra Infusions Limited"
+        android:title="LIBRAINFU" />
+<CheckBoxPreference
+        android:key="LINDEBD"
+        android:summary="Linde Bangladesh Limited"
+        android:title="LINDEBD" />
+<CheckBoxPreference
+        android:key="LRGLOBMF1"
+        android:summary="LR Global Bangladesh Mutual Fund One"
+        android:title="LRGLOBMF1" />
+<CheckBoxPreference
+        android:key="MAKSONSPIN"
+        android:summary="Maksons Spinning Mills Limited"
+        android:title="MAKSONSPIN" />
+<CheckBoxPreference
+        android:key="MALEKSPIN"
+        android:summary="Malek Spinning Mills Ltd."
+        android:title="MALEKSPIN" />
+<CheckBoxPreference
+        android:key="MARICO"
+        android:summary="Marico Bangladesh Limited"
+        android:title="MARICO" />
+<CheckBoxPreference
+        android:key="MBL1STMF"
+        android:summary="MBL 1st Mutual Fund"
+        android:title="MBL1STMF" />
+<CheckBoxPreference
+        android:key="MEGCONMILK"
+        android:summary="Meghna Condensed Milk"
+        android:title="MEGCONMILK" />
+<CheckBoxPreference
+        android:key="MEGHNACEM"
+        android:summary="Meghna Cement"
+        android:title="MEGHNACEM" />
+<CheckBoxPreference
+        android:key="MEGHNALIFE"
+        android:summary="Meghna Life Insurance Co. Ltd."
+        android:title="MEGHNALIFE" />
+<CheckBoxPreference
+        android:key="MEGHNAPET"
+        android:summary="Meghna Pet Industries"
+        android:title="MEGHNAPET" />
+<CheckBoxPreference
+        android:key="MERCANBANK"
+        android:summary="Mercantile Bank Ltd."
+        android:title="MERCANBANK" />
+<CheckBoxPreference
+        android:key="MERCINS"
+        android:summary="Mercantile Insurance Co. Ltd."
+        android:title="MERCINS" />
+<CheckBoxPreference
+        android:key="METROSPIN"
+        android:summary="Metro Spinning"
+        android:title="METROSPIN" />
+<CheckBoxPreference
+        android:key="MICEMENT"
+        android:summary="M.I. Cement Factory Limited"
+        android:title="MICEMENT" />
+<CheckBoxPreference
+        android:key="MIDASFIN"
+        android:summary="MIDAS Financing Ltd."
+        android:title="MIDASFIN" />
+<CheckBoxPreference
+        android:key="MIRACLEIND"
+        android:summary="Miracle Ind."
+        android:title="MIRACLEIND" />
+<CheckBoxPreference
+        android:key="MITHUNKNIT"
+        android:summary="Mithun Knitting"
+        android:title="MITHUNKNIT" />
+<CheckBoxPreference
+        android:key="MJLBD"
+        android:summary="MJL Bangladesh Limited"
+        android:title="MJLBD" />
+<CheckBoxPreference
+        android:key="MODERNDYE"
+        android:summary="Modern Dyeing And Screen Printing Ltd."
+        android:title="MODERNDYE" />
+<CheckBoxPreference
+        android:key="MONNOCERA"
+        android:summary="Monno Ceramic"
+        android:title="MONNOCERA" />
+<CheckBoxPreference
+        android:key="MONNOSTAF"
+        android:summary="Monno Jute Stafflers"
+        android:title="MONNOSTAF" />
+<CheckBoxPreference
+        android:key="MPETROLEUM"
+        android:summary="Meghna Petroleum Limited"
+        android:title="MPETROLEUM" />
+<CheckBoxPreference
+        android:key="MTBL"
+        android:summary="Mutual Trust Bank Ltd."
+        android:title="MTBL" />
+<CheckBoxPreference
+        android:key="NATLIFEINS"
+        android:summary="National Life Insurance"
+        android:title="NATLIFEINS" />
+<CheckBoxPreference
+        android:key="NAVANACNG"
+        android:summary="Navana CNG Limited"
+        android:title="NAVANACNG" />
+<CheckBoxPreference
+        android:key="NBL"
+        android:summary="NBL"
+        android:title="NBL" />
+<CheckBoxPreference
+        android:key="NCCBANK"
+        android:summary="NCCBL"
+        android:title="NCCBANK" />
+<CheckBoxPreference
+        android:key="NCCBLMF1"
+        android:summary="NCCBL Mutual Fund-1"
+        android:title="NCCBLMF1" />
+<CheckBoxPreference
+        android:key="NHFIL"
+        android:summary="National Housing Fin. and Inv. Ltd."
+        android:title="NHFIL" />
+<CheckBoxPreference
+        android:key="NITOLINS"
+        android:summary="Nitol Insurance Co. Ltd."
+        android:title="NITOLINS" />
+<CheckBoxPreference
+        android:key="NLI1STMF"
+        android:summary="NLI First Mutual Fund"
+        android:title="NLI1STMF" />
+<CheckBoxPreference
+        android:key="NORTHERN"
+        android:summary="Northern Jute Manufacturing Co. Ltd."
+        android:title="NORTHERN" />
+<CheckBoxPreference
+        android:key="NORTHRNINS"
+        android:summary="Northern General Insurance Company Ltd."
+        android:title="NORTHRNINS" />
+<CheckBoxPreference
+        android:key="NPOLYMAR"
+        android:summary="National Polymer"
+        android:title="NPOLYMAR" />
+<CheckBoxPreference
+        android:key="NTC"
+        android:summary="National Tea"
+        android:title="NTC" />
+<CheckBoxPreference
+        android:key="NTLTUBES"
+        android:summary="National Tubes"
+        android:title="NTLTUBES" />
+<CheckBoxPreference
+        android:key="OCL"
+        android:summary="Ocean Containers Limited"
+        android:title="OCL" />
+<CheckBoxPreference
+        android:key="OLYMPIC"
+        android:summary="Olympic Industries"
+        android:title="OLYMPIC" />
+<CheckBoxPreference
+        android:key="ONEBANKLTD"
+        android:summary="One Bank Limited"
+        android:title="ONEBANKLTD" />
+<CheckBoxPreference
+        android:key="ORIONINFU"
+        android:summary="Orion Infusion Ltd."
+        android:title="ORIONINFU" />
+<CheckBoxPreference
+        android:key="PADMALIFE"
+        android:summary="Padma Islami Life Insurance Limited"
+        android:title="PADMALIFE" />
+<CheckBoxPreference
+        android:key="PADMAOIL"
+        android:summary="Padma Oil Co."
+        android:title="PADMAOIL" />
+<CheckBoxPreference
+        android:key="PARAMOUNT"
+        android:summary="Paramount Insurance Company Ltd."
+        android:title="PARAMOUNT" />
+<CheckBoxPreference
+        android:key="PEOPLESINS"
+        android:summary="Peoples Insurance"
+        android:title="PEOPLESINS" />
+<CheckBoxPreference
+        android:key="PF1STMF"
+        android:summary="Phoenix Finance 1st Mutual Fund"
+        android:title="PF1STMF" />
+<CheckBoxPreference
+        android:key="PHARMAID"
+        android:summary="Pharma Aids"
+        android:title="PHARMAID" />
+<CheckBoxPreference
+        android:key="PHENIXINS"
+        android:summary="Phoenix Insurance"
+        android:title="PHENIXINS" />
+<CheckBoxPreference
+        android:key="PHOENIXFIN"
+        android:summary="Phoenix Finance and Investments Ltd."
+        android:title="PHOENIXFIN" />
+<CheckBoxPreference
+        android:key="PHPMF1"
+        android:summary="PHP First Mutual Fund"
+        android:title="PHPMF1" />
+<CheckBoxPreference
+        android:key="PIONEERINS"
+        android:summary="Pioneer Insurance"
+        android:title="PIONEERINS" />
+<CheckBoxPreference
+        android:key="PLFSL"
+        android:summary="Peoples Leasing and Fin. Services Ltd."
+        android:title="PLFSL" />
+<CheckBoxPreference
+        android:key="POPULAR1MF"
+        android:summary="Popular Life First Mutual Fund"
+        android:title="POPULAR1MF" />
+<CheckBoxPreference
+        android:key="POPULARLIF"
+        android:summary="Popular Life Insurance Co. Ltd."
+        android:title="POPULARLIF" />
+<CheckBoxPreference
+        android:key="POWERGRID"
+        android:summary="Power Grid Company of Bangladesh Ltd."
+        android:title="POWERGRID" />
+<CheckBoxPreference
+        android:key="PRAGATIINS"
+        android:summary="Pragati Insurance"
+        android:title="PRAGATIINS" />
+<CheckBoxPreference
+        android:key="PRAGATILIF"
+        android:summary="Pragati Life Insurance Ltd."
+        android:title="PRAGATILIF" />
+<CheckBoxPreference
+        android:key="PREMIERBAN"
+        android:summary="The Premier Bank Ltd."
+        android:title="PREMIERBAN" />
+<CheckBoxPreference
+        android:key="PREMIERLEA"
+        android:summary="Premier Leasing And Finance Limited"
+        android:title="PREMIERLEA" />
+<CheckBoxPreference
+        android:key="PRIME1ICBA"
+        android:summary="Prime Bank 1st ICB AMCL Mutual Fund"
+        android:title="PRIME1ICBA" />
+<CheckBoxPreference
+        android:key="PRIMEBANK"
+        android:summary="Prime Bank"
+        android:title="PRIMEBANK" />
+<CheckBoxPreference
+        android:key="PRIMEFIN"
+        android:summary="Prime Finance And Investment Ltd."
+        android:title="PRIMEFIN" />
+<CheckBoxPreference
+        android:key="PRIMEINSUR"
+        android:summary="PRIME INSURACE"
+        android:title="PRIMEINSUR" />
+<CheckBoxPreference
+        android:key="PRIMELIFE"
+        android:summary="Prime Islami Life Insurance Ltd."
+        android:title="PRIMELIFE" />
+<CheckBoxPreference
+        android:key="PRIMETEX"
+        android:summary="Prime Textile"
+        android:title="PRIMETEX" />
+<CheckBoxPreference
+        android:key="PROGRESLIF"
+        android:summary="Progressive Life Insurance Co. Ltd."
+        android:title="PROGRESLIF" />
+<CheckBoxPreference
+        android:key="PROVATIINS"
+        android:summary="Provati Insurance Company Limited"
+        android:title="PROVATIINS" />
+<CheckBoxPreference
+        android:key="PUBALIBANK"
+        android:summary="Pubali Bank"
+        android:title="PUBALIBANK" />
+<CheckBoxPreference
+        android:key="PURABIGEN"
+        android:summary="Purabi Gen. Insurance"
+        android:title="PURABIGEN" />
+<CheckBoxPreference
+        android:key="QSMDRYCELL"
+        android:summary="Quasem Drycells"
+        android:title="QSMDRYCELL" />
+<CheckBoxPreference
+        android:key="RAHIMAFOOD"
+        android:summary="Rahima Food"
+        android:title="RAHIMAFOOD" />
+<CheckBoxPreference
+        android:key="RAHIMTEXT"
+        android:summary="Rahim Textile"
+        android:title="RAHIMTEXT" />
+<CheckBoxPreference
+        android:key="RAKCERAMIC"
+        android:summary="RAK Ceramics (Bangladesh) Limited"
+        android:title="RAKCERAMIC" />
+<CheckBoxPreference
+        android:key="RANFOUNDRY"
+        android:summary="Rangpur Foundry"
+        android:title="RANFOUNDRY" />
+<CheckBoxPreference
+        android:key="RDFOOD"
+        android:summary="Rangpur Dairy And Food Products Ltd."
+        android:title="RDFOOD" />
+<CheckBoxPreference
+        android:key="RECKITTBEN"
+        android:summary="Reckitt Benckiser(Bd.) Ltd."
+        android:title="RECKITTBEN" />
+<CheckBoxPreference
+        android:key="RELIANCE1"
+        android:summary="Reliance One the first scheme of Reliance Insurance Mutual Fund"
+        android:title="RELIANCE1" />
+<CheckBoxPreference
+        android:key="RELIANCINS"
+        android:summary="Reliance Insurance"
+        android:title="RELIANCINS" />
+<CheckBoxPreference
+        android:key="RENATA"
+        android:summary="Renata Ltd."
+        android:title="RENATA" />
+<CheckBoxPreference
+        android:key="RENWICKJA"
+        android:summary="Renwick Jajneswar And Co (Bd)"
+        android:title="RENWICKJA" />
+<CheckBoxPreference
+        android:key="REPUBLIC"
+        android:summary="Republic Insurance Company Limited"
+        android:title="REPUBLIC" />
+<CheckBoxPreference
+        android:key="RNSPIN"
+        android:summary="R.N. Spinning Mills Limited"
+        android:title="RNSPIN" />
+<CheckBoxPreference
+        android:key="RUPALIBANK"
+        android:summary="Rupali Bank"
+        android:title="RUPALIBANK" />
+<CheckBoxPreference
+        android:key="RUPALIINS"
+        android:summary="Rupali Insurance"
+        android:title="RUPALIINS" />
+<CheckBoxPreference
+        android:key="RUPALILIFE"
+        android:summary="Rupali Life Insurance Company Limited"
+        android:title="RUPALILIFE" />
+<CheckBoxPreference
+        android:key="SAFKOSPINN"
+        android:summary="Safko Spinnings"
+        android:title="SAFKOSPINN" />
+<CheckBoxPreference
+        android:key="SAIHAMCOT"
+        android:summary="Saiham Cotton Mills Limited"
+        android:title="SAIHAMCOT" />
+<CheckBoxPreference
+        android:key="SAIHAMTEX"
+        android:summary="Saiham Textile"
+        android:title="SAIHAMTEX" />
+<CheckBoxPreference
+        android:key="SALAMCRST"
+        android:summary="S. Alam Cold Rolled Steels Ltd."
+        android:title="SALAMCRST" />
+<CheckBoxPreference
+        android:key="SALVOCHEM"
+        android:summary="Salvo Chemical Industry Limited"
+        android:title="SALVOCHEM" />
+<CheckBoxPreference
+        android:key="SAMATALETH"
+        android:summary="Samata Leather Complex Ltd."
+        android:title="SAMATALETH" />
+<CheckBoxPreference
+        android:key="SAMORITA"
+        android:summary="Samorita Hospital"
+        android:title="SAMORITA" />
+<CheckBoxPreference
+        android:key="SANDHANINS"
+        android:summary="Sandhani Life Insurance"
+        android:title="SANDHANINS" />
+<CheckBoxPreference
+        android:key="SAPORTL"
+        android:summary="Summit Alliance Port Limited"
+        android:title="SAPORTL" />
+<CheckBoxPreference
+        android:key="SAVAREFR"
+        android:summary="Savar Refractories"
+        android:title="SAVAREFR" />
+<CheckBoxPreference
+        android:key="SEBL1STMF"
+        android:summary="Southeast Bank 1st Mutual Fund"
+        android:title="SEBL1STMF" />
+<CheckBoxPreference
+        android:key="SHAHJABANK"
+        android:summary="Shahjalal Islami Bank Ltd."
+        android:title="SHAHJABANK" />
+<CheckBoxPreference
+        android:key="SHYAMPSUG"
+        android:summary="Shyampur Sugar Mills Ltd."
+        android:title="SHYAMPSUG" />
+<CheckBoxPreference
+        android:key="SIBL"
+        android:summary="Social Islami Bank Limited"
+        android:title="SIBL" />
+<CheckBoxPreference
+        android:key="SINGERBD"
+        android:summary="Singer Bangladesh"
+        android:title="SINGERBD" />
+<CheckBoxPreference
+        android:key="SINOBANGLA"
+        android:summary="Sinobangla Industries"
+        android:title="SINOBANGLA" />
+<CheckBoxPreference
+        android:key="SONALIANSH"
+        android:summary="Sonali Aansh"
+        android:title="SONALIANSH" />
+<CheckBoxPreference
+        android:key="SONARBAINS"
+        android:summary="Sonar Bangla Insurance Ltd."
+        android:title="SONARBAINS" />
+<CheckBoxPreference
+        android:key="SONARGAON"
+        android:summary="Sonargaon Textiles"
+        android:title="SONARGAON" />
+<CheckBoxPreference
+        android:key="SOUTHEASTB"
+        android:summary="Southeast Bank"
+        android:title="SOUTHEASTB" />
+<CheckBoxPreference
+        android:key="SPCERAMICS"
+        android:summary="Shinepukur Ceramics Limited"
+        android:title="SPCERAMICS" />
+<CheckBoxPreference
+        android:key="SQUARETEXT"
+        android:summary="Square Textile"
+        android:title="SQUARETEXT" />
+<CheckBoxPreference
+        android:key="SQURPHARMA"
+        android:summary="Square Pharmaceuticals Ltd."
+        android:title="SQURPHARMA" />
+<CheckBoxPreference
+        android:key="STANCERAM"
+        android:summary="Standard Ceramic"
+        android:title="STANCERAM" />
+<CheckBoxPreference
+        android:key="STANDARINS"
+        android:summary="Standard Insurance Limited"
+        android:title="STANDARINS" />
+<CheckBoxPreference
+        android:key="STANDBANKL"
+        android:summary="Standard Bank Limited"
+        android:title="STANDBANKL" />
+<CheckBoxPreference
+        android:key="STYLECRAFT"
+        android:summary="Stylecraft Limited"
+        android:title="STYLECRAFT" />
+<CheckBoxPreference
+        android:key="SUMITPOWER"
+        android:summary="Summit Power Limited"
+        android:title="SUMITPOWER" />
+<CheckBoxPreference
+        android:key="TAKAFULINS"
+        android:summary="Takaful Islami Insurance Limited"
+        android:title="TAKAFULINS" />
+<CheckBoxPreference
+        android:key="TALLUSPIN"
+        android:summary="Tallu Spinning"
+        android:title="TALLUSPIN" />
+<CheckBoxPreference
+        android:key="TITASGAS"
+        android:summary="Titas Gas Transmission And Dist. Co. Ltd."
+        android:title="TITASGAS" />
+<CheckBoxPreference
+        android:key="TRUSTB1MF"
+        android:summary="Trust Bank 1st Mutual Fund"
+        android:title="TRUSTB1MF" />
+<CheckBoxPreference
+        android:key="TRUSTBANK"
+        android:summary="Trust Bank Limited"
+        android:title="TRUSTBANK" />
+<CheckBoxPreference
+        android:key="UCBL"
+        android:summary="United Commercial Bank Ltd."
+        android:title="UCBL" />
+<CheckBoxPreference
+        android:key="ULC"
+        android:summary="United Leasing"
+        android:title="ULC" />
+<CheckBoxPreference
+        android:key="UNIONCAP"
+        android:summary="Union Capital Limited"
+        android:title="UNIONCAP" />
+<CheckBoxPreference
+        android:key="UNIQUEHRL"
+        android:summary="Unique Hotel And Resorts Limited"
+        android:title="UNIQUEHRL" />
+<CheckBoxPreference
+        android:key="UNITEDAIR"
+        android:summary="United Airways (BD) Ltd"
+        android:title="UNITEDAIR" />
+<CheckBoxPreference
+        android:key="UNITEDINS"
+        android:summary="United Insurance"
+        android:title="UNITEDINS" />
+<CheckBoxPreference
+        android:key="USMANIAGL"
+        android:summary="Usmania Glass"
+        android:title="USMANIAGL" />
+<CheckBoxPreference
+        android:key="UTTARABANK"
+        android:summary="Uttara Bank"
+        android:title="UTTARABANK" />
+<CheckBoxPreference
+        android:key="UTTARAFIN"
+        android:summary="Uttara Finance"
+        android:title="UTTARAFIN" />
+<CheckBoxPreference
+        android:key="ZAHINTEX"
+        android:summary="Zahintex Industries Limited"
+        android:title="ZAHINTEX" />
+<CheckBoxPreference
+        android:key="ZEALBANGLA"
+        android:summary="Zeal Bangla Sugar Mills Ltd."
+        android:title="ZEALBANGLA" />
+<CheckBoxPreference
+        android:key="1JANATAMF"
+        android:summary="First Janata Bank Mutual Fund"
+        android:title="1JANATAMF" />
+<CheckBoxPreference
+        android:key="1STBSRS"
+        android:summary="1st Bangladesh Shilpa Rin Sangstha M.F."
+        android:title="1STBSRS" />
+<CheckBoxPreference
+        android:key="1STICB"
+        android:summary="1st ICB M.F."
+        android:title="1STICB" />
+<CheckBoxPreference
+        android:key="1STPRIMFMF"
+        android:summary="Prime Finance First Mutual Fund"
+        android:title="1STPRIMFMF" />
+<CheckBoxPreference
+        android:key="2NDICB"
+        android:summary="2nd ICB M.F."
+        android:title="2NDICB" />
+<CheckBoxPreference
+        android:key="3RDICB"
+        android:summary="3rd ICB M.F."
+        android:title="3RDICB" />
+<CheckBoxPreference
+        android:key="4THICB"
+        android:summary="4th ICB M.F."
+        android:title="4THICB" />
+<CheckBoxPreference
+        android:key="5THICB"
+        android:summary="5th ICB M.F."
+        android:title="5THICB" />
+<CheckBoxPreference
+        android:key="6THICB"
+        android:summary="6th ICB M.F."
+        android:title="6THICB" />
+<CheckBoxPreference
+        android:key="7THICB"
+        android:summary="7th ICB M.F."
+        android:title="7THICB" />
+<CheckBoxPreference
+        android:key="8THICB"
+        android:summary="8th ICB M.F."
+        android:title="8THICB" />
+ 
+		
+	
+    
+</PreferenceScreen>
