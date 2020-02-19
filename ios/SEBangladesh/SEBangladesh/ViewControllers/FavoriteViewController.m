@@ -55,8 +55,6 @@ NSString *market2;
     return context;
 }
 
-
-
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -75,13 +73,6 @@ NSString *market2;
 	[infoButton addTarget:self action:@selector(infoButtonAction) forControlEvents:UIControlEventTouchUpInside];
 	UIBarButtonItem *modalButton = [[UIBarButtonItem alloc] initWithCustomView:infoButton];
 	[self.navigationItem setRightBarButtonItem:modalButton animated:YES];
-    
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     // AdMob Ad
     GADBannerView *bannerView = [[GADBannerView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 50)];
@@ -117,9 +108,7 @@ NSString *market2;
 }
 
 - (NSString *)  generateUrl {
-    
     NSString *urlString;
-    
     NSString *newUrl;
     
     if ([market isEqualToString:@"DSE"]) {
@@ -151,12 +140,7 @@ NSString *market2;
     
     NSString *urlString;
     urlString = [self generateUrl];
-    
-    
-           
-    
     NSLog(@"URL: %@", urlString);
-    
     
     bar = [[UIDownloadBar alloc] initWithURL:[NSURL URLWithString:urlString]
                             progressBarFrame:CGRectMake(40, 25, 200, 20)
@@ -173,8 +157,6 @@ NSString *market2;
     
 }
 
-
-
 - (void) infoButtonAction {
     [self performSegueWithIdentifier:@"Settings" sender:self];
 }
@@ -184,8 +166,6 @@ NSString *market2;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 #pragma mark - Table view data source
 
@@ -197,7 +177,6 @@ NSString *market2;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-
     // Return the number of rows in the section.
     if (tableView == self.searchDisplayController.searchResultsTableView) {
         return [filteredPriceArray count];
@@ -231,25 +210,14 @@ NSString *market2;
         changeString = [[filteredPriceArray objectAtIndex:indexPath.row] valueForKey:@"c"];
         
         change = [changeString floatValue];
-        
-        
-        
-        
     } else {
         NSString *catName = [[[prices objectAtIndex:indexPath.row] valueForKey:@"n"]  stringByReplacingOccurrencesOfString:@"-" withString:@" "];
-        
-        
+	    
         [cell.textLabel setText:catName];
         NSString *subTitle = [[NSString alloc] initWithFormat:@"%@ (%@%%)", [[prices objectAtIndex:indexPath.row] valueForKey:@"l"], [[prices objectAtIndex:indexPath.row] valueForKey:@"pc"]];
-        
-        
         cell.detailTextLabel.text = subTitle;
         changeString = [[prices objectAtIndex:indexPath.row] valueForKey:@"c"];
-        
-        
-        change = [changeString floatValue];
-        
-        
+        change = [changeString floatValue];       
     }
     
     if ([changeString rangeOfString:@"-"].location != NSNotFound) {
@@ -259,50 +227,9 @@ NSString *market2;
     } else {
         cell.imageView.image = [UIImage imageNamed:@"double_headed_arrow.png"];
     }
-    
-    
-    
+	
     return cell;
 }
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 #pragma mark - Table view delegate
 
@@ -317,25 +244,13 @@ NSString *market2;
         [self performSegueWithIdentifier:@"Details" sender:tableView];
         NSLog(@"NO FILTERED SELECTED");
     }
-
-    
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
 }
 
 
 #pragma mark - Download Bar
 - (void)downloadBar:(UIDownloadBar *)downloadBar didFinishWithData:(NSData *)fileData suggestedFilename:(NSString *)filename {
-    //  NSLog(@"%@", filename);
-    //    NSLog(@"%@",fileData);
-    
+   
     prices = [NSJSONSerialization JSONObjectWithData:fileData options:kNilOptions error:nil]; // This is JSON Data;
-    
     
     self.filteredPriceArray = [NSMutableArray arrayWithCapacity:[prices count]];
     
@@ -361,14 +276,11 @@ NSString *market2;
                                               otherButtonTitles:nil];
     [alertView show];
     
-    
     NSLog(@"Download Error: %@", error);
 }
 
 - (void)downloadBarUpdated:(UIDownloadBar *)downloadBar {
 }
-
-
 
 #pragma mark - Search Facility
 -(void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope {
@@ -379,7 +291,6 @@ NSString *market2;
     NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF.n contains[c] %@",searchText];
     filteredPriceArray = [NSMutableArray arrayWithArray:[prices filteredArrayUsingPredicate:predicate]];
 }
-
 
 #pragma mark - UISearchDisplayController Delegate Methods
 -(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString {
@@ -398,15 +309,9 @@ NSString *market2;
     return YES;
 }
 
-
-
-
 - (IBAction)refreshAction:(id)sender {
-    
     [self getCompanyList];
-    
 }
-
 
 - (void)viewDidUnload {
     [self setInfo:nil];
