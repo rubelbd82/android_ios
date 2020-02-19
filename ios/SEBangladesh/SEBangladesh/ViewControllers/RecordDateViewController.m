@@ -31,20 +31,12 @@ NSMutableArray *recordDates;
 {
     [super viewDidLoad];
     
-    [self getRecordDateList];
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
+    [self getRecordDateList];    
     
     // AdMob Ad
     GADBannerView *bannerView = [[GADBannerView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 50)];
     
     self.tableView.tableHeaderView = bannerView;
-    
     
     [UIApplication sharedApplication].networkActivityIndicatorVisible = TRUE;
     bannerView.adUnitID = bannerAdUnitID;
@@ -52,15 +44,12 @@ NSMutableArray *recordDates;
     bannerView.rootViewController = self;
     [bannerView loadRequest:[GADRequest request]];
 
-    
 }
 
 -(void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.tabBarController.tabBar.hidden = YES;
 }
-
-
 
 - (void) getRecordDateList {
     
@@ -73,8 +62,6 @@ NSMutableArray *recordDates;
     }
     
     NSLog(@"URL String %@", urlString);
-
-    
     
     bar = [[UIDownloadBar alloc] initWithURL:[NSURL URLWithString:urlString]
                             progressBarFrame:CGRectMake(40, 25, 200, 20)
@@ -91,17 +78,12 @@ NSMutableArray *recordDates;
     
 }
 
-
 #pragma mark - Download Bar
 - (void)downloadBar:(UIDownloadBar *)downloadBar didFinishWithData:(NSData *)fileData suggestedFilename:(NSString *)filename {
     //  NSLog(@"%@", filename);
-    //    
-    
     recordDates = [NSJSONSerialization JSONObjectWithData:fileData options:kNilOptions error:nil]; // This is JSON Data;
 
     [alert dismissWithClickedButtonIndex:0 animated:YES];
-
-    
     
     if ([recordDates count] < 1) {
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Message"
@@ -124,21 +106,16 @@ NSMutableArray *recordDates;
                                               otherButtonTitles:nil];
     [alertView show];
     
-    
     NSLog(@"Download Error: %@", error);
 }
 
 - (void)downloadBarUpdated:(UIDownloadBar *)downloadBar {
 }
 
-
-
-
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-
     // Return the number of sections.
     return 1;
 }
@@ -157,9 +134,8 @@ NSMutableArray *recordDates;
     
     // Configure the cell...
     
-         cell = [[RecordDateCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-    
-    
+    cell = [[RecordDateCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+   
     NSString *companyName = [[recordDates objectAtIndex:indexPath.row] valueForKey:@"n"];
 
     cell.companyName.text =  companyName;
@@ -179,45 +155,6 @@ NSMutableArray *recordDates;
 
     return (UITableViewCell *) cell;
 }
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 #pragma mark - Table view delegate
 
