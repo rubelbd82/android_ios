@@ -49,8 +49,6 @@
     self.tabBarController.tabBar.hidden = YES;
 }
 
-
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
