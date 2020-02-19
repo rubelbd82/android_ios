@@ -57,8 +57,6 @@ int dsePriceViews = 0;
     self.tabBarController.tabBar.hidden = YES;
 
     self.interstitial = [self createAndLoadInterstitial];
-    
-
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -77,11 +75,6 @@ int dsePriceViews = 0;
 
 -(void) viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    
-    
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 1 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-////        [object method];
-//    });
     
 }
 
@@ -102,9 +95,6 @@ int dsePriceViews = 0;
                     NSLog(@"Ad wasn't ready");
                 }
             });
-        
-        
-        
     }
     dsePriceViews++;
 }
@@ -187,9 +177,6 @@ int dsePriceViews = 0;
 
         change = [changeString floatValue];
         
-        
-        
-        
     } else {
         NSString *catName = [[[prices objectAtIndex:indexPath.row] valueForKey:@"n"]  stringByReplacingOccurrencesOfString:@"-" withString:@" "];
         
@@ -201,10 +188,7 @@ int dsePriceViews = 0;
         cell.detailTextLabel.text = subTitle;
         changeString = [[prices objectAtIndex:indexPath.row] valueForKey:@"c"];
         
-        
         change = [changeString floatValue];
-        
-        
     }
     
     if ([changeString rangeOfString:@"-"].location != NSNotFound) {
@@ -215,50 +199,9 @@ int dsePriceViews = 0;
         cell.imageView.image = [UIImage imageNamed:@"double_headed_arrow.png"];
     }
     
-    
-    
     return cell;
 
 }
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 #pragma mark - Table view delegate
 
@@ -274,15 +217,6 @@ int dsePriceViews = 0;
         [self performSegueWithIdentifier:@"Details" sender:tableView];
         NSLog(@"NO FILTERED SELECTED");
     }
-
-    
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
 }
 
 
