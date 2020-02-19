@@ -25,7 +25,4 @@ static int const interstitialAdFrequency = 7;
 
 @end
 
-
-
-
 #endif /* Constants_h */
