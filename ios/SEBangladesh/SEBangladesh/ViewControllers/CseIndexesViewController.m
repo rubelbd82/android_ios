@@ -75,9 +75,6 @@ UIActivityIndicatorView *indicator;
     [wv2 loadRequest:requestObj2];
     [wv3 loadRequest:requestObj3];
     [wv4 loadRequest:requestObj4];
-
-    
-    
     
     // indicator = [[UIActivityIndicatorView alloc]initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     
