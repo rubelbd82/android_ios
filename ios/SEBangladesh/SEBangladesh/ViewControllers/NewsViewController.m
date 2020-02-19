@@ -25,8 +25,6 @@ int newsViews = 0;
     
     destViewController.newsDetails = [[news objectAtIndex:[[self.tableView indexPathForSelectedRow] row]] valueForKey:@"n"];;
     destViewController.market =market;
-    
-    
 }
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -44,12 +42,6 @@ int newsViews = 0;
     [self getNewsList];
     
     self.interstitial = [self createAndLoadInterstitial];
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 -(void) viewWillAppear:(BOOL)animated {
@@ -88,8 +80,6 @@ int newsViews = 0;
     
     NSLog(@"URL String %@", urlString);
     
-    
-    
     bar = [[UIDownloadBar alloc] initWithURL:[NSURL URLWithString:urlString]
                             progressBarFrame:CGRectMake(40, 25, 200, 20)
                                      timeout:15
@@ -109,12 +99,9 @@ int newsViews = 0;
 - (void)downloadBar:(UIDownloadBar *)downloadBar didFinishWithData:(NSData *)fileData suggestedFilename:(NSString *)filename {
     //  NSLog(@"%@", filename);
     //
-    
     news = [NSJSONSerialization JSONObjectWithData:fileData options:kNilOptions error:nil]; // This is JSON Data;
 
     [alert dismissWithClickedButtonIndex:0 animated:YES];
-    
-    
     
     if ([news count] < 1) {
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Message"
@@ -128,8 +115,6 @@ int newsViews = 0;
     }
     [self.tableView reloadData];
 }
-
-
 
 - (void)downloadBar:(UIDownloadBar *)downloadBar didFailWithError:(NSError *)error {
     [alert dismissWithClickedButtonIndex:0 animated:YES];
@@ -146,9 +131,6 @@ int newsViews = 0;
 
 - (void)downloadBarUpdated:(UIDownloadBar *)downloadBar {
 }
-
-
-
 
 #pragma mark - Table view data source
 
@@ -175,63 +157,14 @@ int newsViews = 0;
     if (nil == cell) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
-
-    
     
     NSString *companyName = [[news objectAtIndex:indexPath.row] valueForKey:@"c"];
        
      [cell.textLabel setText:companyName];
 
-    cell.detailTextLabel.text = [[news objectAtIndex:indexPath.row] valueForKey:@"n"];
-
-
-    
-    // Configure the cell...
-    
+    cell.detailTextLabel.text = [[news objectAtIndex:indexPath.row] valueForKey:@"n"];    
     return  cell;
 }
-
-
-
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 #pragma mark - Table view delegate
 
@@ -245,7 +178,6 @@ int newsViews = 0;
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
 }
-
 
 - (void)didReceiveMemoryWarning
 {
