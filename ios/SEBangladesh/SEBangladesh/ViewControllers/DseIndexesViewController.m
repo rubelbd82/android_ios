@@ -32,12 +32,10 @@ UIActivityIndicatorView *indicator;
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
-    
     int screenHeight = [[UIScreen mainScreen] bounds].size.height;
     scrollView.frame = CGRectMake(0, 0, 320, screenHeight);
     //---set the content size of the scroll view---
     [scrollView setContentSize:CGSizeMake(320, 870)];
-    
     
     NSString *urlAddress1;
     NSString *urlAddress2;
@@ -92,7 +90,6 @@ UIActivityIndicatorView *indicator;
     [self.view addSubview:indicator];
     [indicator bringSubviewToFront:self.view];
     
-    
     [UIApplication sharedApplication].networkActivityIndicatorVisible = TRUE;
     
     // AdMob Ad
@@ -100,17 +97,12 @@ UIActivityIndicatorView *indicator;
 
     bannerView.rootViewController = self;
     [self.bannerView loadRequest:[GADRequest request]];
-
-    
 }
 
 -(void) viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.tabBarController.tabBar.hidden = YES;
 }
-
-
-
 
 - (void)webViewDidStartLoad:(UIWebView *)webView {
     NSLog(@"Started");
