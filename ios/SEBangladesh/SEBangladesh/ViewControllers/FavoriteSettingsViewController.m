@@ -54,12 +54,7 @@ NSString *market2;
     tableView1.delegate = self;
     tableView1.dataSource = self;
     searchDisplayController.delegate = self;
-    searcbBar.delegate = self;
-    
-    
-
-    
-    
+    searcbBar.delegate = self; 
 }
 
 - (void) viewWillAppear:(BOOL)animated {
@@ -69,7 +64,6 @@ NSString *market2;
     [self refreshCompanies];
      NSLog(@"MARKET: %@", market);
     
-    
     if ([market isEqualToString:@"DSE"]) {
         market2 = @"Dse";
     } else if ([market isEqualToString:@"CSE"]) {
@@ -78,9 +72,6 @@ NSString *market2;
 }
 
 - (BOOL) checkAvailability: (NSString *) companyName {
-
-    
-    
     for (int i=0; i<[self.companies count]; i++) {
         NSString *currentCompany = [[self.companies objectAtIndex:i] valueForKey:@"companyName"];
         
@@ -90,9 +81,7 @@ NSString *market2;
     }
     
         return NO;
-
 }
-
 
 - (int) indexOfCompany: (NSString *) companyName {
     
@@ -106,10 +95,7 @@ NSString *market2;
     }
     
     return 2147483647;
-    
 }
-
-
 
 - (void) refreshCompanies {
     if ([market isEqualToString:@"DSE"]) {
@@ -127,9 +113,6 @@ NSString *market2;
 
 }
 
-
-
-
 - (void) getCompanyList {
     NSString *urlString;
     
@@ -141,7 +124,6 @@ NSString *market2;
         urlString = [NSString stringWithFormat:@"%@dse.php", baseUrl];
 
     }
-    
     
     NSLog(@"URL: %@", urlString);
     
@@ -171,17 +153,12 @@ NSString *market2;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-   
-
-    
     // Return the number of rows in the section.
     if (tableView1 == self.searchDisplayController.searchResultsTableView) {
         return [filteredPriceArray count];
     } else {
         return [prices count];
     }
-    
-    
     return [prices count];
 }
 
@@ -207,8 +184,6 @@ NSString *market2;
         
         
         [cell.textLabel setText:catName];
-                
-        
     }
     
     
@@ -218,51 +193,10 @@ NSString *market2;
     } else {
         cell.accessoryType = UITableViewCellAccessoryNone;
     }
-    
-    
-    
+	
     return cell;
     
 }
-
-/*
- // Override to support conditional editing of the table view.
- - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
- {
- // Return NO if you do not want the specified item to be editable.
- return YES;
- }
- */
-
-/*
- // Override to support editing the table view.
- - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
- {
- if (editingStyle == UITableViewCellEditingStyleDelete) {
- // Delete the row from the data source
- [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
- }
- else if (editingStyle == UITableViewCellEditingStyleInsert) {
- // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
- }
- }
- */
-
-/*
- // Override to support rearranging the table view.
- - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
- {
- }
- */
-
-/*
- // Override to support conditional rearranging of the table view.
- - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
- {
- // Return NO if you do not want the item to be re-orderable.
- return YES;
- }
- */
 
 #pragma mark - Table view delegate
 
@@ -289,33 +223,16 @@ NSString *market2;
                  [managedObjectContext deleteObject:[self.companies objectAtIndex:index1]];
             }
             
-        
-            
-            
-            
-            
         } else {
             cell.accessoryType = UITableViewCellAccessoryCheckmark;
             NSString *companyName = [[filteredPriceArray objectAtIndex:indexPath.row] valueForKey:@"n"];
-            
-            
-            
             NSManagedObject *newDevice;
             newDevice = [NSEntityDescription insertNewObjectForEntityForName:market2 inManagedObjectContext:managedObjectContext];
 
-            
-            [newDevice setValue:companyName forKey:@"companyName"];
-            
-            
+            [newDevice setValue:companyName forKey:@"companyName"];            
         }
-
-        
-        
-        
-      //  [self performSegueWithIdentifier:@"DetailsFiltered" sender:tableView1];
-        
+                
     } else {
-      //  [self performSegueWithIdentifier:@"Details" sender:tableView1];
         NSLog(@"NO FILTERED SELECTED");
         
         if (cell.accessoryType == UITableViewCellAccessoryCheckmark) {
@@ -330,16 +247,9 @@ NSString *market2;
             [managedObjectContext deleteObject:[self.companies objectAtIndex:index1]];
                 
             }
-            
- 
-            
-            
         } else {
             cell.accessoryType = UITableViewCellAccessoryCheckmark;
             NSString *companyName = [[prices objectAtIndex:indexPath.row] valueForKey:@"n"];
-            
-            
-            
             NSManagedObject *newDevice;
             newDevice = [NSEntityDescription insertNewObjectForEntityForName:market2 inManagedObjectContext:managedObjectContext];
             
@@ -348,11 +258,6 @@ NSString *market2;
             
         }
     }
-    
-    
-    
-    
-    
     
     NSError *error = nil;
     
@@ -364,14 +269,6 @@ NSString *market2;
     
     [self refreshCompanies];
     
-    
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
 }
 
 
@@ -412,8 +309,6 @@ NSString *market2;
 - (void)downloadBarUpdated:(UIDownloadBar *)downloadBar {
 }
 
-
-
 #pragma mark - Search Facility
 -(void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope {
     // Update the filtered array based on the search text and scope.
@@ -449,13 +344,6 @@ NSString *market2;
 
 - (IBAction)saveAction:(id)sender {
 }
-
-
-
-
-
-
-
 
 - (void)didReceiveMemoryWarning
 {
