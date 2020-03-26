@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:src="@drawable/greenbackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView3"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:padding="25dp"
+        android:weightSum="2"
+        android:id="@+id/linearLayout"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+        <ImageView
+            android:src="@drawable/placeholder"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView4"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:gravity="center"
+            style="@style/textTitleWhite"/>
+        <View
+            android:layout_width="200dp"
+            android:layout_height="2dp"
+            style="@style/hrWhite"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username / Email"
+                android:maxLines="1"
+                style="@style/etGeneral"
+
+                android:singleLine="true"
+                android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                style="@style/etGeneral"
+
+
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Firstname"
+                android:maxLines="1"
+                style="@style/etGeneral"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Lastname"
+                android:maxLines="1"
+                style="@style/etGeneral"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone"
+                android:maxLines="1"
+                style="@style/etGeneral"
+                android:singleLine="true"
+                android:inputType="phone" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Spinner
+            android:id="@+id/spDistricts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            style="@style/btnTransparent"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            style="@style/btnGeneral"
+            android:layout_gravity="center"
+            android:onClick="actionRegister"/>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+

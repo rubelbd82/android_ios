@@ -1,0 +1,26 @@
+package app.edikodik.com.edikodik.enums;
+
+/**
+ * Created by farhadrubel on 6/4/16.
+ */
+
+public enum ServiceType {
+    HOME_SERVCE,
+    CATEGORY_SERVICE,
+    SUBCATEGORY_SERVICE,
+    SEARCH_SERVICE,
+    GENERIC_DETAIL,
+    MOVIE_SEARCH,
+    BOOK_SEARCH,
+    MOVIE_DETAIL,
+    BOOK_DETAIL,
+    LOGIN_SERVICE,
+    SOCIAL_MEDIA_LOGIN_SERVICE,
+    REGISTRATION_SERVICE,
+    GENERIC_SEARCH_LISTING,
+    GENERIC_SEARCH_MOVIE,
+    GENERIC_SEARCH_BOOK,
+    CMS,
+    RATING,
+    FREE_LISTING
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "640739220779",
+    "project_id": "firebase-edikodik"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640739220779:android:b3a70193cf66c9d5",
+        "android_client_info": {
+          "package_name": "app.edikodik.com.edikodik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640739220779-u7snhorf6f6ana4556l573cssp80ul10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.edikodik.com.edikodik",
+            "certificate_hash": "DA39A3EE5E6B4B0D3255BFEF95601890AFD80709"
+          }
+        },
+        {
+          "client_id": "640739220779-mj8rg1114tgqf6smpkndclut8v07vomm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdElwNaoCdzUhCr07_qOuXMTaVUFV6btQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,173 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="colorPrimaryLight">@color/colorPrimaryLight</item>-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:textColorPrimary">@color/textColorPrimary</item>-->
+        <!--<item name="android:textColorSecondary">@color/textColorSecondary</item>-->
+
+        <item name="colorControlNormal">@color/textColorWhite</item>
+        <item name="colorControlActivated">@color/textColorWhite</item>
+        <item name="colorControlHighlight">@color/textColorWhite</item>
+    </style>
+
+    <style name="ThemeColorControlGeneral">
+        <item name="colorControlNormal">@color/colorGray</item>
+        <item name="colorControlActivated">@color/colorGray</item>
+        <item name="colorControlHighlight">@color/colorGray</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--CardView Styles-->
+
+    <style name="cardViewGeneral"  parent="CardView">
+        <item name="android:padding">5dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+
+        <item name="cardCornerRadius">5dp</item>
+    </style>
+
+
+
+    <style name="cardViewHome"  parent="CardView.Light">
+        <item name="android:padding">5dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardMaxElevation">6dp</item>
+        <item name="cardCornerRadius">15dp</item>
+        </style>
+
+
+
+    <style name="cardViewGreen" parent="cardViewGeneral">
+        <item name="cardBackgroundColor">@color/colorPrimary</item>
+    </style>
+
+    <!--Labels-->
+    <style name="label">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:padding">3dp</item>
+    </style>
+    <style name="labelWhite" parent="label">
+        <item name="android:textColor">@color/textColorWhite</item>
+    </style>
+
+    <style name="labelGenericTitle" parent="label">
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+
+    <style name="text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+    
+    <style name="textWhite">
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+    </style>
+
+    <style name="textTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <!--Image Background styles-->
+    <style name="textTitleWhite">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+    </style>
+
+
+    <!--Headlines-->
+    <style name="headline" parent="label">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+    </style>
+
+    <style name="largeHeadline" parent="headline">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="headlineWhite" parent="largeHeadline">
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    
+    <!--Button-->
+
+    
+    <style name="btnGeneral">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+    </style>
+
+    <style name="btnSmall" parent="btnGeneral">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+    </style>
+
+    <style name="btnTransparent">
+        <item name="background">@drawable/btn_transparent_border</item>
+    </style>
+
+
+
+<!--Horizontal Rulers-->
+
+    <style name="hr">
+        <item name="android:height">1dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/colorGray</item>
+    </style>
+
+    <style name="hrWhite" parent="hr">
+        <item name="android:height">2dp</item>
+        <item name="android:background">@color/textColorWhite</item>
+    </style>
+
+    <!--EditTexts-->
+    <style name="etGeneral">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/textColorWhite</item>
+        <item name="android:textColorHint">@color/textColorWhite</item>
+    </style>
+
+    <!--RatingBar-->
+
+    <style name="RatingBar"
+        parent="android:style/Widget.Material.RatingBar.Small">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorSecondary</item>
+    </style>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            >
+
+            <Spinner
+                android:id="@+id/spGenre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        >
+
+        <Spinner
+            android:id="@+id/spLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        >
+
+        <Spinner
+            android:id="@+id/spCinemahall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:padding="0dp"
+        android:weightSum="2"
+        >
+
+        <Button
+            android:id="@+id/btnPublishDate"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableRight="@android:drawable/ic_menu_my_calendar"
+            android:text="Release date"
+            android:padding="3dp"
+            android:textSize="12dp"
+            style="@style/btnSmall"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="1dp"
+            />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:drawableRight="@android:drawable/ic_menu_search"
+        android:text="Search"
+        android:padding="3dp"
+        android:textSize="12dp"
+        style="@style/btnSmall"
+        android:layout_gravity="center_horizontal"
+        />
+
+        </LinearLayout>
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:text="Submit"-->
+        <!--style="@style/btnGeneral"-->
+        <!--android:id="@+id/button"-->
+        <!--android:onClick="actionSearch"/>-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>

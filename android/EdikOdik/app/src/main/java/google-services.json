@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "180625681501",
+    "project_id": "edikodik-74955"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180625681501:android:b3a70193cf66c9d5",
+        "android_client_info": {
+          "package_name": "app.edikodik.com.edikodik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "180625681501-dl2ak36jvfmjv741tn8rtoeojm5fg1d5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.edikodik.com.edikodik",
+            "certificate_hash": "54E9684F9D18E8142566AD3045F3EE582C182815"
+          }
+        },
+        {
+          "client_id": "180625681501-47c7lqg1lpqsncs672j19tmpl3lc9704.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd-lUAab1NQOl5zBczgvhKv1t8Wk3blUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

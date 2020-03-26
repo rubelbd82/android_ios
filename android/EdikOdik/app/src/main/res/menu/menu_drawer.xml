@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_home">
+        <item
+            android:id="@+id/home"
+            android:title="@string/home" />
+    </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_signin">
+        <item
+            android:id="@+id/signin"
+            android:title="@string/signin" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_signup">
+        <item
+            android:id="@+id/signup"
+            android:title="@string/signup" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_freelisting">
+    <item
+        android:id="@+id/freebusinesslisting"
+        android:title="@string/freebusinesslisting" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_about">
+        <item
+            android:id="@+id/navigation_item_4"
+            android:title="@string/about_edikodik">
+                <menu>
+                    <item
+                        android:id="@+id/about"
+                        android:title="@string/about"
+                        android:icon="@android:drawable/ic_menu_compass"/>
+                    <item
+                        android:id="@+id/termsandconditions"
+                        android:title="@string/termsandconditions"
+                        android:icon="@android:drawable/ic_menu_compass"/>
+                    <item
+                        android:id="@+id/contact"
+                        android:title="@string/contact"
+                        android:icon="@android:drawable/ic_menu_compass"/>
+                    <item
+                        android:id="@+id/advertise"
+                        android:title="@string/advertise"
+                        android:icon="@android:drawable/ic_menu_compass"/>
+
+                </menu>
+
+
+            </item>
+    </group>
+
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group_signout">
+        <item
+            android:id="@+id/signout"
+            android:title="@string/signout" />
+    </group>
+
+    <group android:checkableBehavior="single">
+
+
+    </group>
+</menu>

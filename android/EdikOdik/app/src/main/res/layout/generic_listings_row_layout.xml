@@ -1,0 +1,275 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+ >
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:cardview="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/cardViewGeneral"
+        android:layout_margin="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="false"
+        android:id="@+id/card1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/imgListing"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/restaurant_1"
+                    android:layout_gravity="center_vertical"
+                    android:padding="5dp"/>
+                <LinearLayout
+                    android:id="@+id/rightcolumn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+
+                    <TextView
+                        android:id="@+id/tvDistance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Distance"
+                        android:textSize="8sp"
+                        android:gravity="right"
+                        android:layout_gravity="right"/>
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/labelGenericTitle"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:text="Name: sflsjdf"/>
+
+
+                    <TextView
+                        android:id="@+id/address1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Address 1"
+                        style="@style/label"
+
+                        />
+                    <TextView
+                        android:id="@+id/address2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Address 2"
+                        style="@style/label"
+
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/price"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Price"
+                            style="@style/label"
+                            />
+
+
+
+                    </LinearLayout>
+
+
+
+
+                    <RatingBar
+                        android:id="@+id/ratingBar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="?android:attr/ratingBarStyleIndicator"
+                        android:numStars="5"
+                        android:isIndicator="true"
+                        android:stepSize="0.5"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:background="#ffffff"
+                android:gravity="right"
+
+                >
+
+                <LinearLayout
+                    android:id="@+id/featured"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:gravity="center">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnFeatured"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_bookmark"
+                        app:elevation="2dp"
+                        android:scaleType="center"
+                        app:backgroundTint="@color/colorGreen"/>
+
+
+                    <!--<Button-->
+                        <!--android:layout_width="40dp"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:background="@drawable/featured_bookmark"-->
+                        <!--android:text=""-->
+                        <!--android:layout_margin="5dp"-->
+                        <!--/>-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/verified"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:gravity="center">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnVerified"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_verified"
+                        app:elevation="2dp"
+                        android:scaleType="center"
+                        app:backgroundTint="@color/colorAmber"/>
+
+                <!--<Button-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="@drawable/verified"-->
+                    <!--android:text=""-->
+                    <!--android:layout_margin="5dp"-->
+
+                    <!--/>-->
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/map"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:gravity="center">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnMap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_marker"
+                        app:elevation="2dp"
+                        android:scaleType="center"
+                        app:backgroundTint="@color/colorBlue"/>
+
+                <!--<Button-->
+                    <!--android:id="@+id/btnMap"-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="@drawable/map"-->
+                    <!--android:text=""-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--/>-->
+
+                    </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/share"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:gravity="center">
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnShare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_share"
+                        app:elevation="2dp"
+                        android:scaleType="center"
+                        app:backgroundTint="@color/colorRed"/>
+
+                <!--<Button-->
+                    <!--android:id="@+id/btnShare"-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="@drawable/share"-->
+                    <!--android:text=""-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--/>-->
+
+                    </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/call"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="3dp"
+                    android:gravity="center">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnCall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_phone"
+                        app:elevation="2dp"
+                        android:scaleType="center"
+                        app:backgroundTint="@color/colorGreen"/>
+
+
+
+                <!--<Button-->
+                    <!--android:id="@+id/btnCall"-->
+                    <!--android:layout_width="40dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="@drawable/call"-->
+                    <!--android:text=""-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--/>-->
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
